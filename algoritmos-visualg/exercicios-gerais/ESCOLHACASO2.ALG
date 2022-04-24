@@ -1,41 +1,41 @@
-Algoritmo "EscolhaCaso"
-// Disciplina: [Linguagem e Lógica de Programação]
+Algoritmo "escolhaCaso"
+// Disciplina: [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo irá ler um número e exibir na tela o mês do ano correspondente ao número digitado.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Algoritmo irï¿½ ler um nï¿½mero e exibir na tela o mï¿½s do ano correspondente ao nï¿½mero digitado.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual : 30/03/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    numero: Inteiro
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
 Inicio
-   Escreva("Digite um número para saber seu mês do ano correspondente: ")
+   Escreva("Digite um nï¿½mero para saber seu mï¿½s do ano correspondente: ")
    Leia(numero)
    Escolha numero
      Caso 1
-        Escreva("O mês 1 corresponde ao mês de Janeiro")
+        Escreva("O mï¿½s 1 corresponde ao mï¿½s de Janeiro")
      Caso 2
-        Escreva("O mês 2 corresponde ao mês de Fevereiro")
+        Escreva("O mï¿½s 2 corresponde ao mï¿½s de Fevereiro")
      Caso 3
-        Escreva("O mês 3 corresponde ao mês de Março")
+        Escreva("O mï¿½s 3 corresponde ao mï¿½s de Marï¿½o")
      Caso 4
-        Escreva("O mês 4 corresponde ao mês de Abril")
+        Escreva("O mï¿½s 4 corresponde ao mï¿½s de Abril")
      Caso 5
-        Escreva("O mês 5 corresponde ao mês de Maio")
+        Escreva("O mï¿½s 5 corresponde ao mï¿½s de Maio")
      Caso 6
-        Escreva("O mês 6 corresponde ao mês de Junho")
+        Escreva("O mï¿½s 6 corresponde ao mï¿½s de Junho")
      Caso 7
-        Escreva("O mês 7 corresponde ao mês de Julho")
+        Escreva("O mï¿½s 7 corresponde ao mï¿½s de Julho")
      Caso 8
-        Escreva("O mês 8 corresponde ao mês de Agosto")
+        Escreva("O mï¿½s 8 corresponde ao mï¿½s de Agosto")
      Caso 9
-        Escreva("O mês 9 corresponde ao mês de Setembro")
+        Escreva("O mï¿½s 9 corresponde ao mï¿½s de Setembro")
      Caso 10
-        Escreva("O mês 10 corresponde ao mês de Outubro")
+        Escreva("O mï¿½s 10 corresponde ao mï¿½s de Outubro")
      Caso 11
-        Escreva("O mês 11 corresponde ao mês de Novembro")
+        Escreva("O mï¿½s 11 corresponde ao mï¿½s de Novembro")
      Caso 12
-        Escreva("O mês 12 corresponde ao mês de Dezembro")
+        Escreva("O mï¿½s 12 corresponde ao mï¿½s de Dezembro")
      OutroCaso
         Escreval("[ERRO] Digite apenas um valor entre 1 e 12.")
    FimEscolha

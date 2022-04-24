@@ -1,21 +1,21 @@
-Algoritmo "DesvioCondicionalSimples"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "desvioCondicionalSimples"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição: Algoritmo irá ler um nome e uma nota e exibi-los na tela, se a nota for maior do que 9 aparecerá uma mensagem dizendo: Parabéns!.
-// Autor(a): Mateus Alves Conceição
+// Descriï¿½ï¿½o: Algoritmo irï¿½ ler um nome e uma nota e exibi-los na tela, se a nota for maior do que 9 aparecerï¿½ uma mensagem dizendo: Parabï¿½ns!.
+// Autor(a): Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 25/03/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    nome: Caractere
    nota: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreva("Digite seu nome: ")
    Leia(nome)
    Escreva("Informe qual foi sua nota na prova: ")
    Leia(nota)
    EscrevaL("A nota de ", nome, " correspondente a:", nota)
    Se nota > 9 entao
-      Escreva("PARABÉNS!")
+      Escreva("PARABï¿½NS!")
    FimSe
 Fimalgoritmo

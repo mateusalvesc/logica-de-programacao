@@ -1,19 +1,19 @@
-Algoritmo "Multiplicacao"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "multiplicacao"
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor   : Obama
-// Descrição   : Solicitará dois valores, efetuará a MULTIPLICAÇÃO e exibirá o resultado na tela.
-// Autor(a)    : Mateus Alves Conceição
+// Descriï¿½ï¿½o   : Solicitarï¿½ dois valores, efetuarï¿½ a MULTIPLICAï¿½ï¿½O e exibirï¿½ o resultado na tela.
+// Autor(a)    : Mateus Alves Conceiï¿½ï¿½o
 // Data atual  : 16/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    numero1, numero2, resultado: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreva("Multiplicador de dois números")
-   Escreva("Digite um número: ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreva("Multiplicador de dois nï¿½meros")
+   Escreva("Digite um nï¿½mero: ")
    Leia(numero1)
-   Escreva("Digite outro número: ")
+   Escreva("Digite outro nï¿½mero: ")
    Leia(numero2)
    resultado <- numero1 * numero2
-   Escreva("A multiplicação entre", numero1, " e", numero2, " é igual a:", resultado)
+   Escreva("A multiplicaï¿½ï¿½o entre", numero1, " e", numero2, " ï¿½ igual a:", resultado)
 Fimalgoritmo

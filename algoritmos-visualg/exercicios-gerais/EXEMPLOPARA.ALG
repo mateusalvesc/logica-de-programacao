@@ -1,14 +1,14 @@
-Algoritmo "ExemploPara"
-// Disciplina: [Lógica de Programação e JavaScript]
-// Professor:  Mateus Alves Conceição
-// Descrição:  Algoritmo somador de pares entre os valores de 1 a 500.
-// Autor(a):   Mateus Alves Conceição
+Algoritmo "exemploPara"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
+// Professor:  Mateus Alves Conceiï¿½ï¿½o
+// Descriï¿½ï¿½o:  Algoritmo somador de pares entre os valores de 1 a 500.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contadora, acumuladora:inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc... para contadora de 1 ate 500 passo 1 faca
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... para contadora de 1 ate 500 passo 1 faca
    Para contadora de 1 ate 500 faca
       Se (contadora mod 2)=0 entao
          acumuladora<-acumuladora+contadora

@@ -1,54 +1,54 @@
-Algoritmo "MesesDoAno"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "mesesDoAno"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição: Algoritmo identificará e exibirá na tela o mês correspondente ao número digitado, levando em consideração os valores entre 1 e 12.
-// Autor(a): Mateus Alves Conceição
+// Descriï¿½ï¿½o: Algoritmo identificarï¿½ e exibirï¿½ na tela o mï¿½s correspondente ao nï¿½mero digitado, levando em consideraï¿½ï¿½o os valores entre 1 e 12.
+// Autor(a): Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 26/03/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    mes: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Em qual mês nós estamos? ")
-   Escreva("Digite o número da ordem do mês: ")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Em qual mï¿½s nï¿½s estamos? ")
+   Escreva("Digite o nï¿½mero da ordem do mï¿½s: ")
    Leia(mes)
    Se mes = 1 entao
-      Escreva("Nós estamos no mês de: JANEIRO")
+      Escreva("Nï¿½s estamos no mï¿½s de: JANEIRO")
    senao
       Se mes = 2 entao
-         Escreva("Nós estamos no mês de: FEVEREIRO")
+         Escreva("Nï¿½s estamos no mï¿½s de: FEVEREIRO")
       senao
          Se mes = 3 entao
-            Escreva("Nós estamos no mês de: MARÇO")
+            Escreva("Nï¿½s estamos no mï¿½s de: MARï¿½O")
          senao
             Se mes = 4 entao
-               Escreva("Nós estamos no mês de: ABRIL")
+               Escreva("Nï¿½s estamos no mï¿½s de: ABRIL")
             senao
                Se mes = 5 entao
-                  Escreva("Nós estamos no mês de: MAIO")
+                  Escreva("Nï¿½s estamos no mï¿½s de: MAIO")
                senao
                   Se mes = 6 entao
-                     Escreva("Nós estamos no mês de: JUNHO")
+                     Escreva("Nï¿½s estamos no mï¿½s de: JUNHO")
                   senao
                      Se mes = 7 entao
-                        Escreva("Nós estamos no mês de: JULHO")
+                        Escreva("Nï¿½s estamos no mï¿½s de: JULHO")
                      senao
                         Se mes = 8 entao
-                           Escreva("Nós estamos no mês de: AGOSTO")
+                           Escreva("Nï¿½s estamos no mï¿½s de: AGOSTO")
                         senao
                            Se mes = 9 entao
-                              Escreva("Nós estamos no mês de: SETEMBRO")
+                              Escreva("Nï¿½s estamos no mï¿½s de: SETEMBRO")
                            senao
                               Se mes = 10 entao
-                                 Escreva("Nós estamos no mês de: OUTUBRO")
+                                 Escreva("Nï¿½s estamos no mï¿½s de: OUTUBRO")
                               senao
                                  Se mes = 11 entao
-                                    Escreva("Nós estamos no mês de: NOVEMBRO")
+                                    Escreva("Nï¿½s estamos no mï¿½s de: NOVEMBRO")
                                  senao
                                       Se mes = 12 entao
-                                         Escreva("Nós estamos no mês de: DEZEMBRO")
+                                         Escreva("Nï¿½s estamos no mï¿½s de: DEZEMBRO")
                                       senao
-                                         Escreva("MÊS INVÁLIDO!")
+                                         Escreva("Mï¿½S INVï¿½LIDO!")
                                       FimSe
                                  FimSe
                               FimSe

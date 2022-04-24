@@ -1,32 +1,32 @@
-Algoritmo "OBAMA_BANK"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "obamaBank"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo irá simular a realização das principais funções de um banco, a partir da leitura de valores e opções escolhidas pelo usuário.
-// Autor(a):   Mateus ALves Conceição
+// Descriï¿½ï¿½o:  Algoritmo irï¿½ simular a realizaï¿½ï¿½o das principais funï¿½ï¿½es de um banco, a partir da leitura de valores e opï¿½ï¿½es escolhidas pelo usuï¿½rio.
+// Autor(a):   Mateus ALves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    agencia, conta, digito, senha, confirmaSenha, opcaoMenu, opcaoGeral, opcaoExtrato, opcaoPagamentos, agenciaDeposito, contaDeposito, digitoDeposito, agenciaTransferencia, contaTransferencia, digitoTransferencia, numeroParcelas, opcaoEmprestimo, opcaoPix, escolhaPix, idPix, opcaoRecarga, recargaDDD, recargaNumero, escolhaRecarga, opcaoSair: Inteiro
    valorSaque, valorDeposito, valorTransferencia, valorEmprestimo, valorPix, valorRecarga: Real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    EscrevaL("==========================")
    EscrevaL("======= OBAMA BANK =======")
    EscrevaL("==========================")
    EscrevaL("")
-   EscrevaL("DIGITE SEUS DADOS PARA TER ACESSO À SUA CONTA")
+   EscrevaL("DIGITE SEUS DADOS PARA TER ACESSO ï¿½ SUA CONTA")
    EscrevaL("")
-   Escreva("AGÊNCIA: ")
+   Escreva("AGï¿½NCIA: ")
    Leia(agencia)
    Escreva("CONTA: ")
    Leia(conta)
-   Escreva("DÍGITO: ")
+   Escreva("Dï¿½GITO: ")
    Leia(digito)
    Escreva("SENHA: ")
    Leia(senha)
    Se (agencia <> 8486) ou (conta <> 105896) ou (digito <> 2) ou (senha <> 618170) entao
       LimpaTela
-      EscrevaL("CONTA NÃO IDENTIFICADA OU SENHA INVÁLIDA.")
+      EscrevaL("CONTA Nï¿½O IDENTIFICADA OU SENHA INVï¿½LIDA.")
    senao
       Se (agencia = 8486) e (conta = 105896) e (digito = 2) e (senha = 618170) entao
          Repita
@@ -37,15 +37,15 @@ Inicio
             EscrevaL("")
             EscrevaL("MENU PRINCIPAL")
             EscrevaL("")
-            EscrevaL("ESCOLHA UMA OPÇÃO: ")
+            EscrevaL("ESCOLHA UMA OPï¿½ï¿½O: ")
             EscrevaL("")
             EscrevaL("[1] SAQUE")
             EscrevaL("[2] SALDO")
             EscrevaL("[3] EXTRATO")
             EscrevaL("[4] PAGAMENTOS")
-            EscrevaL("[5] DEPÓSITOS")
-            EscrevaL("[6] TRANSFERÊNCIAS")
-            EscrevaL("[7] EMPRÉSTIMOS")
+            EscrevaL("[5] DEPï¿½SITOS")
+            EscrevaL("[6] TRANSFERï¿½NCIAS")
+            EscrevaL("[7] EMPRï¿½STIMOS")
             EscrevaL("[8] PIX")
             EscrevaL("[9] RECARGA DE CELULAR")
             EscrevaL("[0] SAIR")
@@ -56,7 +56,7 @@ Inicio
                LimpaTela
                EscrevaL("SAQUE")
                EscrevaL("")
-               EscrevaL("NOTAS DISPONÍVEIS: 50, 100")
+               EscrevaL("NOTAS DISPONï¿½VEIS: 50, 100")
                EscrevaL("")
                Escreva("DIGITE O VALOR QUE DESEJA SACAR: R$ ")
                Leia(valorSaque)
@@ -67,9 +67,9 @@ Inicio
                   LimpaTela
                   EscrevaL("SAQUE")
                   EscrevaL("")
-                  EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                  EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                   EscrevaL("")
-                  EscrevaL("VOCÊ REALIZOU UM SAQUE DE R$", valorSaque)
+                  EscrevaL("VOCï¿½ REALIZOU UM SAQUE DE R$", valorSaque)
                   EscrevaL("")
                   EscrevaL("RETIRE O DINHEIRO NO LOCAL INDICADO")
                   EscrevaL("")
@@ -81,9 +81,9 @@ Inicio
                      LimpaTela
                      EscrevaL("SAQUE")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                     EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                      EscrevaL("")
-                     EscrevaL("SALDO INSUFICIENTE OU VALOR INVÁLIDO")
+                     EscrevaL("SALDO INSUFICIENTE OU VALOR INVï¿½LIDO")
                      EscrevaL("")
                      EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                      EscrevaL("[3] SAIR")
@@ -93,7 +93,7 @@ Inicio
                      LimpaTela
                      EscrevaL("SAQUE")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                     EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                      EscrevaL("")
                      EscrevaL("SENHA INCORRETA")
                      EscrevaL("")
@@ -109,7 +109,7 @@ Inicio
             LimpaTela
             EscrevaL("SALDO")
             EscrevaL("")
-            EscrevaL("SALDO DISPONÍVEL:       R$ 3.000,00")
+            EscrevaL("SALDO DISPONï¿½VEL:       R$ 3.000,00")
             EscrevaL("")
             EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
             EscrevaL("[3] SAIR")
@@ -120,14 +120,14 @@ Inicio
             LimpaTela
             EscrevaL("EXTRATO")
             EscrevaL("")
-            EscrevaL("[1] EXTRATO DOS ÚLTIMOS 5 DIAS")
-            EscrevaL("[2] EXTRATO DOS ÚLTIMOS 30 DIAS")
+            EscrevaL("[1] EXTRATO DOS ï¿½LTIMOS 5 DIAS")
+            EscrevaL("[2] EXTRATO DOS ï¿½LTIMOS 30 DIAS")
             EscrevaL("")
             Leia(opcaoExtrato)
             LimpaTela
             EscrevaL("EXTRATO")
             EscrevaL("")
-            EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+            EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
             EscrevaL("")
             EscrevaL("RETIRE SEU DEMONSTRATIVO NO LOCAL INDICADO")
             EscrevaL("")
@@ -140,14 +140,14 @@ Inicio
             LimpaTela
             EscrevaL("PAGAMENTOS")
             EscrevaL("")
-            Escreval("[1] COM LEITOR DE CÓDIGO DE BARRAS")
-            EscrevaL("[2] SEM LEITOR DE CÓDIGO DE BARRAS")
+            Escreval("[1] COM LEITOR DE Cï¿½DIGO DE BARRAS")
+            EscrevaL("[2] SEM LEITOR DE Cï¿½DIGO DE BARRAS")
             EscrevaL("")
             Leia(opcaoPagamentos)
             LimpaTela
             EscrevaL("PAGAMENTOS")
             EscrevaL("")
-            EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+            EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
             EscrevaL("")
             EscrevaL("PAGAMENTO EFETUADO")
             EscrevaL("")
@@ -158,36 +158,36 @@ Inicio
 
          caso 5
             LimpaTela
-            EscrevaL("DEPÓSITOS")
+            EscrevaL("DEPï¿½SITOS")
             EscrevaL("")
-            EscrevaL("DIGITE OS DADOS DE QUEM IRÁ RECEBER O DEPÓSITO")
+            EscrevaL("DIGITE OS DADOS DE QUEM IRï¿½ RECEBER O DEPï¿½SITO")
             EscrevaL("")
-            Escreva("AGÊNCIA: ")
+            Escreva("AGï¿½NCIA: ")
             Leia(agenciaDeposito)
             Escreva("CONTA: ")
             Leia(contaDeposito)
-            Escreva("DÍGITO: ")
+            Escreva("Dï¿½GITO: ")
             Leia(digitoDeposito)
-            Escreva("VALOR DE DEPÓSITO: R$ ")
+            Escreva("VALOR DE DEPï¿½SITO: R$ ")
             Leia(valorDeposito)
             LimpaTela
             Se (valorDeposito > 0) e (valorDeposito < 3000) entao
-               EscrevaL("DEPÓSITOS")
+               EscrevaL("DEPï¿½SITOS")
                EscrevaL("")
-               EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+               EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                EscrevaL("")
-               EscrevaL("AGÊNCIA:", agenciaDeposito, " | CONTA:", contaDeposito, " | DÍGITO:", digitoDeposito)
-               EscrevaL("RECEBEU DEPÓSITO DE: R$", valorDeposito)
+               EscrevaL("AGï¿½NCIA:", agenciaDeposito, " | CONTA:", contaDeposito, " | Dï¿½GITO:", digitoDeposito)
+               EscrevaL("RECEBEU DEPï¿½SITO DE: R$", valorDeposito)
                EscrevaL("")
                EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                EscrevaL("[3] SAIR")
                Leia(opcaoGeral)
             senao
-               EscrevaL("DEPÓSITOS")
+               EscrevaL("DEPï¿½SITOS")
                EscrevaL("")
-               EscrevaL("OPERAÇÃO NÃO REALIZADA")
+               EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                EscrevaL("")
-               EscrevaL("SALDO INSUFICIENTE OU VALOR INVÁLIDO")
+               EscrevaL("SALDO INSUFICIENTE OU VALOR INVï¿½LIDO")
                EscrevaL("")
                EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                EscrevaL("[3] SAIR")
@@ -196,36 +196,36 @@ Inicio
 
          caso 6
             LimpaTela
-            EscrevaL("TRANSFERÊNCIAS")
+            EscrevaL("TRANSFERï¿½NCIAS")
             EscrevaL("")
-            Escreval("DIGITE OS DADOS DE QUEM IRÁ RECEBER A TRANSFERÊNCIA")
+            Escreval("DIGITE OS DADOS DE QUEM IRï¿½ RECEBER A TRANSFERï¿½NCIA")
             EscrevaL("")
-            Escreva("AGÊNCIA: ")
+            Escreva("AGï¿½NCIA: ")
             Leia(agenciaTransferencia)
             Escreva("CONTA: ")
             Leia(contaTransferencia)
-            Escreva("DÍGITO: ")
+            Escreva("Dï¿½GITO: ")
             Leia(digitoTransferencia)
-            Escreva("VALOR DA TRANSFERÊNCIA: R$ ")
+            Escreva("VALOR DA TRANSFERï¿½NCIA: R$ ")
             Leia(valorTransferencia)
             LimpaTela
             Se (valorTransferencia > 0) e (valorTransferencia < 3000) entao
-               EscrevaL("TRANSFERÊNCIAS")
+               EscrevaL("TRANSFERï¿½NCIAS")
                EscrevaL("")
-               EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+               EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                EscrevaL("")
-               EscrevaL("AGÊNCIA:", agenciaTransferencia, " | CONTA:", contaTransferencia, " | DÍGITO:", digitoTransferencia)
-               EscrevaL("RECEBEU TRANSFERÊNCIA DE: R$", valorTransferencia)
+               EscrevaL("AGï¿½NCIA:", agenciaTransferencia, " | CONTA:", contaTransferencia, " | Dï¿½GITO:", digitoTransferencia)
+               EscrevaL("RECEBEU TRANSFERï¿½NCIA DE: R$", valorTransferencia)
                EscrevaL("")
                EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                EscrevaL("[3] SAIR")
                Leia(opcaoGeral)
             senao
-               EscrevaL("TRANSFERÊNCIAS")
+               EscrevaL("TRANSFERï¿½NCIAS")
                EscrevaL("")
-               EscrevaL("OPERAÇÃO NÃO REALIZADA")
+               EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                EscrevaL("")
-               EscrevaL("SALDO INSUFICIENTE OU VALOR INVÁLIDO")
+               EscrevaL("SALDO INSUFICIENTE OU VALOR INVï¿½LIDO")
                EscrevaL("")
                EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                EscrevaL("[3] SAIR")
@@ -234,9 +234,9 @@ Inicio
 
          caso 7
             LimpaTela
-            EscrevaL("EMPRÉSTIMOS")
+            EscrevaL("EMPRï¿½STIMOS")
             EscrevaL("")
-            EscrevaL("LIMITE DE EMPRÉSTIMO: R$ 20000")
+            EscrevaL("LIMITE DE EMPRï¿½STIMO: R$ 20000")
             EscrevaL("LIMITE DE PARCELAS: 36x")
             EscrevaL("TAXA DE JUROS: 15%")
             EscrevaL("")
@@ -260,11 +260,11 @@ Inicio
                Se opcaoEmprestimo = 1 entao
                   LimpaTela
                   Se (valorEmprestimo > 0) e (valorEmprestimo <= 20000) e (numeroParcelas > 0) e (numeroParcelas <= 36) entao
-                     EscrevaL("EMPRÉSTIMOS")
+                     EscrevaL("EMPRï¿½STIMOS")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                     EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                      EscrevaL("")
-                     EscrevaL("VOCÊ REALIZOU UM EMPRÉSTIMO DE R$", valorEmprestimo, " QUE DEVERÁ SER PAGO EM", numeroParcelas, " PARECLAS DE R$", valorEmprestimo * 1.15 / numeroParcelas)
+                     EscrevaL("VOCï¿½ REALIZOU UM EMPRï¿½STIMO DE R$", valorEmprestimo, " QUE DEVERï¿½ SER PAGO EM", numeroParcelas, " PARECLAS DE R$", valorEmprestimo * 1.15 / numeroParcelas)
                      EscrevaL("")
                      EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                      EscrevaL("[3] SAIR")
@@ -272,11 +272,11 @@ Inicio
                      Leia(opcaoGeral)
                   senao
                      Se (valorEmprestimo < 0) ou (valorEmprestimo > 10000) ou (numeroParcelas < 0) ou (numeroParcelas > 36) entao
-                        EscrevaL("EMPRÉSTIMOS")
+                        EscrevaL("EMPRï¿½STIMOS")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                        EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                         EscrevaL("")
-                        EscrevaL("CRÉDITO E/OU NÚMERO DE PARCELAS INDISPONÍVEL")
+                        EscrevaL("CRï¿½DITO E/OU Nï¿½MERO DE PARCELAS INDISPONï¿½VEL")
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -291,12 +291,12 @@ Inicio
             LimpaTela
             EscrevaL("PIX")
             EscrevaL("")
-            EscrevaL("ESCOLHA A IDENTIFICAÇÃO DA CHAVE PIX")
+            EscrevaL("ESCOLHA A IDENTIFICAï¿½ï¿½O DA CHAVE PIX")
             EscrevaL("")
             EscrevaL("[1] CPF")
-            EscrevaL("[2] NÚMERO DE TELEFONE")
+            EscrevaL("[2] Nï¿½MERO DE TELEFONE")
             EscrevaL("[3] E-MAIL")
-            EscrevaL("[4] CHAVE ALEATÓRIA")
+            EscrevaL("[4] CHAVE ALEATï¿½RIA")
             EscrevaL("")
             Leia(opcaoPix)
             Escolha opcaoPix
@@ -328,7 +328,7 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                        EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                         EscrevaL("")
                         EscrevaL("PIX: CPF", idPix, " | ", "VALOR: R$", valorPix)
                         EscrevaL("")
@@ -340,9 +340,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                        EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                         EscrevaL("")
-                        EscrevaL("SALDO INDISPONÍVEL E/OU CHAVE PIX NÃO IDENTIFICADA")
+                        EscrevaL("SALDO INDISPONï¿½VEL E/OU CHAVE PIX Nï¿½O IDENTIFICADA")
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR PARA O MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -358,7 +358,7 @@ Inicio
                EscrevaL("")
                EscrevaL("INFORME OS DADOS A SEGUIR")
                EscrevaL("")
-               Escreva("NÚMERO DE TELEFONE: ")
+               Escreva("Nï¿½MERO DE TELEFONE: ")
                Leia(idPix)
                EscrevaL("")
                Escreva("DIGITE O VALOR: R$ ")
@@ -381,9 +381,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                        EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                         EscrevaL("")
-                        EscrevaL("PIX: NÚMERO DE TELEFONE", idPix, " | ", "VALOR: R$", valorPix)
+                        EscrevaL("PIX: Nï¿½MERO DE TELEFONE", idPix, " | ", "VALOR: R$", valorPix)
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -393,9 +393,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                        EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                         EscrevaL("")
-                        EscrevaL("SALDO INDISPONÍVEL E/OU CHAVE PIX NÃO IDENTIFICADA")
+                        EscrevaL("SALDO INDISPONï¿½VEL E/OU CHAVE PIX Nï¿½O IDENTIFICADA")
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR PARA O MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -434,7 +434,7 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                        EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                         EscrevaL("")
                         EscrevaL("PIX: E-MAIL", idPix, " | ", "VALOR: R$", valorPix)
                         EscrevaL("")
@@ -446,9 +446,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                        EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                         EscrevaL("")
-                        EscrevaL("SALDO INDISPONÍVEL E/OU CHAVE PIX NÃO IDENTIFICADA")
+                        EscrevaL("SALDO INDISPONï¿½VEL E/OU CHAVE PIX Nï¿½O IDENTIFICADA")
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR PARA O MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -464,7 +464,7 @@ Inicio
                EscrevaL("")
                EscrevaL("INFORME OS DADOS A SEGUIR")
                EscrevaL("")
-               Escreva("CHAVE ALEATÓRIA: ")
+               Escreva("CHAVE ALEATï¿½RIA: ")
                Leia(idPix)
                EscrevaL("")
                Escreva("DIGITE O VALOR: R$ ")
@@ -487,9 +487,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                        EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                         EscrevaL("")
-                        EscrevaL("PIX: CHAVE ALEATÓRIA", idPix, " | ", "VALOR: R$", valorPix)
+                        EscrevaL("PIX: CHAVE ALEATï¿½RIA", idPix, " | ", "VALOR: R$", valorPix)
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -499,9 +499,9 @@ Inicio
                         LimpaTela
                         EscrevaL("PIX")
                         EscrevaL("")
-                        EscrevaL("OPERAÇÃO NÃO REALIZADA")
+                        EscrevaL("OPERAï¿½ï¿½O Nï¿½O REALIZADA")
                         EscrevaL("")
-                        EscrevaL("SALDO INDISPONÍVEL E/OU CHAVE PIX NÃO IDENTIFICADA")
+                        EscrevaL("SALDO INDISPONï¿½VEL E/OU CHAVE PIX Nï¿½O IDENTIFICADA")
                         EscrevaL("")
                         EscrevaL("[2] VOLTAR PARA O MENU PRINCIPAL")
                         EscrevaL("[3] SAIR")
@@ -513,7 +513,7 @@ Inicio
 
             OutroCaso
                LimpaTela
-               EscrevaL("OPÇÃO INVÁLIDA")
+               EscrevaL("OPï¿½ï¿½O INVï¿½LIDA")
                EscrevaL("")
                EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                EscrevaL("[3] SAIR")
@@ -541,7 +541,7 @@ Inicio
                EscrevaL("")
                Escreva("DDD: ")
                Leia(recargaDDD)
-               Escreva("NÚMERO: ")
+               Escreva("Nï¿½MERO: ")
                Leia(recargaNumero)
                Escreva("VALOR: R$ ")
                Leia(valorRecarga)
@@ -554,7 +554,7 @@ Inicio
                   LimpaTela
                   EscrevaL("RECARGA")
                   EscrevaL("")
-                  EscrevaL("OPERAÇÃO CANCELADA")
+                  EscrevaL("OPERAï¿½ï¿½O CANCELADA")
                   EscrevaL("")
                   EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                   EscrevaL("[3] SAIR")
@@ -565,7 +565,7 @@ Inicio
                      LimpaTela
                      EscrevaL("RECARGA")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                     EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                      EscrevaL("")
                      EscrevaL("RECARGA: CLARO (",recargaDDD," )", recargaNumero)
                      EscrevaL("Valor: R$", valorRecarga)
@@ -585,7 +585,7 @@ Inicio
                EscrevaL("")
                Escreva("DDD: ")
                Leia(recargaDDD)
-               Escreva("NÚMERO: ")
+               Escreva("Nï¿½MERO: ")
                Leia(recargaNumero)
                Escreva("VALOR: R$ ")
                Leia(valorRecarga)
@@ -598,7 +598,7 @@ Inicio
                   LimpaTela
                   EscrevaL("RECARGA")
                   EscrevaL("")
-                  EscrevaL("OPERAÇÃO CANCELADA")
+                  EscrevaL("OPERAï¿½ï¿½O CANCELADA")
                   EscrevaL("")
                   EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                   EscrevaL("[3] SAIR")
@@ -609,7 +609,7 @@ Inicio
                      LimpaTela
                      EscrevaL("RECARGA")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                     EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                      EscrevaL("")
                      EscrevaL("RECARGA: OI (",recargaDDD," )", recargaNumero)
                      EscrevaL("Valor: R$", valorRecarga)
@@ -630,7 +630,7 @@ Inicio
                EscrevaL("")
                Escreva("DDD: ")
                Leia(recargaDDD)
-               Escreva("NÚMERO: ")
+               Escreva("Nï¿½MERO: ")
                Leia(recargaNumero)
                Escreva("VALOR: R$ ")
                Leia(valorRecarga)
@@ -643,7 +643,7 @@ Inicio
                   LimpaTela
                   EscrevaL("RECARGA")
                   EscrevaL("")
-                  EscrevaL("OPERAÇÃO CANCELADA")
+                  EscrevaL("OPERAï¿½ï¿½O CANCELADA")
                   EscrevaL("")
                   EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                   EscrevaL("[3] SAIR")
@@ -654,7 +654,7 @@ Inicio
                      LimpaTela
                      EscrevaL("RECARGA")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                     EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                      EscrevaL("")
                      EscrevaL("RECARGA: TIM (",recargaDDD," )", recargaNumero)
                      EscrevaL("Valor: R$", valorRecarga)
@@ -674,7 +674,7 @@ Inicio
                EscrevaL("")
                Escreva("DDD: ")
                Leia(recargaDDD)
-               Escreva("NÚMERO: ")
+               Escreva("Nï¿½MERO: ")
                Leia(recargaNumero)
                Escreva("VALOR: R$ ")
                Leia(valorRecarga)
@@ -687,7 +687,7 @@ Inicio
                   LimpaTela
                   EscrevaL("RECARGA")
                   EscrevaL("")
-                  EscrevaL("OPERAÇÃO CANCELADA")
+                  EscrevaL("OPERAï¿½ï¿½O CANCELADA")
                   EscrevaL("")
                   EscrevaL("[2] VOLTAR AO MENU PRINCIPAL")
                   EscrevaL("[3] SAIR")
@@ -698,7 +698,7 @@ Inicio
                      LimpaTela
                      EscrevaL("RECARGA")
                      EscrevaL("")
-                     EscrevaL("OPERAÇÃO REALIZADA COM SUCESSO")
+                     EscrevaL("OPERAï¿½ï¿½O REALIZADA COM SUCESSO")
                      EscrevaL("")
                      EscrevaL("RECARGA: VIVO (",recargaDDD," )", recargaNumero)
                      EscrevaL("Valor: R$", valorRecarga)
@@ -731,7 +731,7 @@ Inicio
 
          OutroCaso
             EscrevaL("")
-            EscrevaL("OPÇÃO INVÁLIDA. ESCOLHA UMA OPÇÃO ENTRE 0 E 9.")
+            EscrevaL("OPï¿½ï¿½O INVï¿½LIDA. ESCOLHA UMA OPï¿½ï¿½O ENTRE 0 E 9.")
             EscrevaL("")
             opcaoGeral <- 2
             Leia(opcaoMenu)
@@ -741,6 +741,6 @@ Inicio
    FimSe
    LimpaTela
    EscrevaL("")
-   Escreva("SESSÃO ENCERRADA")
+   Escreva("SESSï¿½O ENCERRADA")
    EscrevaL("")
 FimAlgoritmo

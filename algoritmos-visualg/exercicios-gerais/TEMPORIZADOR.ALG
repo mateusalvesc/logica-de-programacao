@@ -1,14 +1,14 @@
-Algoritmo "Temporizador"
-// Disciplina : [Linguagem e Lógica de Programação]
-// Professor : Antonio Carlos Nicolodi
-// Descrição : Aqui você descreve o que o programa faz! (função)
-// Autor(a) : Nome do(a) aluno(a)
+Algoritmo "temporizador"
+// Disciplina : [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
+// Professor : Jailson Costa dos Santos
+// Descriï¿½ï¿½o : Algoritmo irÃ¡ simular um temporizador.
+// Autor(a) : Mateus Alves ConceiÃ§Ã£o
 // Data atual : 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador,contador1:inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    para contador de 59 ate 1 passo -1 faca
       para contador1 de 59 ate 1 passo -1 faca
          Escreval(contador, ":",contador1)

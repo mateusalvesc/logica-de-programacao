@@ -1,20 +1,20 @@
-Algoritmo "Divisao"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "divisao"
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor   : Obama
-// Descrição   : Solicitará dois valores, efetuará a DIVISÃO e exibirá o resultado na tela.
-// Autor(a)    : Mateus Alves Conceição
+// Descriï¿½ï¿½o   : Solicitarï¿½ dois valores, efetuarï¿½ a DIVISï¿½O e exibirï¿½ o resultado na tela.
+// Autor(a)    : Mateus Alves Conceiï¿½ï¿½o
 // Data atual  : 16/03/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    valor1, valor2: Inteiro
    resultado: real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Divisor de dois números")
-   Escreva("Digite um número: ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreval("Divisor de dois nï¿½meros")
+   Escreva("Digite um nï¿½mero: ")
    Leia(valor1)
-   Escreva("Digite outro número: ")
+   Escreva("Digite outro nï¿½mero: ")
    Leia(valor2)
    resultado <- valor1 / valor2
-   Escreva("A divisão entre", valor1, " e", valor2, " igual a:", resultado)
+   Escreva("A divisï¿½o entre", valor1, " e", valor2, " igual a:", resultado)
 Fimalgoritmo

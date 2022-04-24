@@ -1,15 +1,15 @@
-Algoritmo "OBAMA_BANK"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "obamaBank"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo irá simular a realização das principais funções de um banco, a partir da leitura de valores e opções escolhidas pelo usuário.
-// Autor(a):   Mateus ALves Conceição
+// Descriï¿½ï¿½o:  Algoritmo irï¿½ simular a realizaï¿½ï¿½o das principais funï¿½ï¿½es de um banco, a partir da leitura de valores e opï¿½ï¿½es escolhidas pelo usuï¿½rio.
+// Autor(a):   Mateus ALves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    usuario: Caractere
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    EscrevaL("===================================")
    EscrevaL("============ OBAMA BANK ===========")
    EscrevaL("===================================")
@@ -19,12 +19,12 @@ Inicio
    Escreval()
    Escreval("Digite a sua senha:")
    Leia(senha) se (usuario= "jailson.santos") e (senha=192837) entao
-   Escreval("Usuário logado com sucesso")
+   Escreval("Usuï¿½rio logado com sucesso")
    Escreval()
    limpatela
    Escreval("Seja bem vindo ",usuario)
    limpatela
-   Escreval("Selecione uma opção :")
+   Escreval("Selecione uma opï¿½ï¿½o :")
    Escreval()
    Escreval("1 - Saque")
    Escreval()
@@ -34,7 +34,7 @@ Inicio
    Escreval()
    Escreval("4 - Extrato")
    Escreval()
-   Escreval("5 - Bolsa Família")
+   Escreval("5 - Bolsa Famï¿½lia")
    Escreval()
    Escreval("6 - Saldo")
    Escreval()
@@ -46,11 +46,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 2
@@ -59,11 +59,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 3
@@ -72,11 +72,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 4
@@ -85,11 +85,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 5
@@ -98,11 +98,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 6
@@ -111,11 +111,11 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) caso 7
@@ -124,18 +124,18 @@ Inicio
    Escreval("===================================")
    Escreval()
    Escreval()
-   Escreva("Voce selecionou a opção de SAQUE")
+   Escreva("Voce selecionou a opï¿½ï¿½o de SAQUE")
    Escreval()
-   Escreval("Informe o número de sua agência: ")
+   Escreval("Informe o nï¿½mero de sua agï¿½ncia: ")
    leia(agencia)
-   Escreval("Informe o número de sua conta corrente")
+   Escreval("Informe o nï¿½mero de sua conta corrente")
    leia(contacorrente)
    Escreval("Informe o digito")
    leia(digito) outrocaso
-   Escreva("Voce digitou uma opção inválida")
+   Escreva("Voce digitou uma opï¿½ï¿½o invï¿½lida")
    Escreval() fimescolha
 senao
-   Escreval("Usuário(a) não identificado. Usuário e/ou senha incorretos")
+   Escreval("Usuï¿½rio(a) nï¿½o identificado. Usuï¿½rio e/ou senha incorretos")
 fimse
 Fimalgoritmo
 

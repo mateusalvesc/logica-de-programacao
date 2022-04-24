@@ -1,21 +1,21 @@
-Algoritmo "Subtracao"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "subtracao"
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor   : Obama
-// Descrição   : Solicitará dois valores, efetuará a SUBTRAÇÃO e exibirá o resultado.
-// Autor(a)    : Mateus Alves Conceição
+// Descriï¿½ï¿½o   : Solicitarï¿½ dois valores, efetuarï¿½ a SUBTRAï¿½ï¿½O e exibirï¿½ o resultado.
+// Autor(a)    : Mateus Alves Conceiï¿½ï¿½o
 // Data atual  : 16/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    valor1: Inteiro
    valor2: Inteiro
    subtracao: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Subtrador de dois números")
-   Escreva("Digite um número: ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreval("Subtrador de dois nï¿½meros")
+   Escreva("Digite um nï¿½mero: ")
    Leia(valor1)
-   Escreva("Digite outro número: ")
+   Escreva("Digite outro nï¿½mero: ")
    Leia(valor2)
    subtracao <- valor1 - valor2
-   Escreva("A subtração entre", valor1, " e", valor2, " é igual a:", subtracao)
+   Escreva("A subtraï¿½ï¿½o entre", valor1, " e", valor2, " ï¿½ igual a:", subtracao)
 Fimalgoritmo

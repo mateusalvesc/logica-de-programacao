@@ -1,15 +1,15 @@
-Algoritmo "Tabuada"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "tabuada"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo irá ler um valor e exibir na tela sua tabuada corresponde multiplicada de 1 até 10.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Algoritmo irï¿½ ler um valor e exibir na tela sua tabuada corresponde multiplicada de 1 atï¿½ 10.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 31/03/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    valor, contador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreva("Quer ver a tabuada de qual número: ")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreva("Quer ver a tabuada de qual nï¿½mero: ")
    Leia(valor)
    contador <- 1
    Enquanto contador < 11 faca

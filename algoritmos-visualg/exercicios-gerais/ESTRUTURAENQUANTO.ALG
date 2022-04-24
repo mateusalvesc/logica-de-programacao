@@ -1,14 +1,14 @@
-Algoritmo "EstruturaDeRepeticao1"
-// Disciplina : [Linguagem e Lógica de Programação]
+Algoritmo "estruturaDeRepeticao1"
+// Disciplina : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor : Jailson Costa dos Santos
-// Descrição : Estrutura de Repetição Enquanto
+// Descriï¿½ï¿½o : Estrutura de Repetiï¿½ï¿½o Enquanto
 // Autor(a) : Obaminha
 // Data atual : 30/03/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 contadora:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
 contadora<-1
 enquanto contadora<101 faca
 Escreval(contadora)

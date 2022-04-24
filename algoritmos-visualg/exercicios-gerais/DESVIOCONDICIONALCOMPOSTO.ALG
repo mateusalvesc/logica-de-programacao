@@ -1,19 +1,19 @@
-Algoritmo "DesvioCondicionalComposto"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "desvioCondicionalComposto"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição   : Algoritmo irá
-// Autor(a)    : Mateus Alves Conceição
+// Descriï¿½ï¿½o   : Algoritmo irÃ¡ verificar se uma pessoa Ã© maior ou menor de idade, a partir da entrada do valor digitado pelo usuÃ¡rio.
+// Autor(a)    : Mateus Alves Conceiï¿½ï¿½o
 // Data atual  : 25/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    idade: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Escreva("Digite sua idade em anos: ")
    Leia(idade)
    Se (idade>17) entao
-      Escreva("Você é MAIOR de idade!")
+      Escreva("Vocï¿½ ï¿½ MAIOR de idade!")
    senao
-      Escreva("Você é MENOR de idade!")
+      Escreva("Vocï¿½ ï¿½ MENOR de idade!")
    FimSe
 Fimalgoritmo

@@ -1,20 +1,20 @@
-Algoritmo "Exponenciação"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "exponenciacao"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição: Algoritmo irá ler um número inteiro e por valor será elevado, efetuará o cálculo de potenciação e mostrará o resultado na tela.
-// Autor(a): Mateus Alves Conceição
+// Descriï¿½ï¿½o: Algoritmo irï¿½ ler um nï¿½mero inteiro e por valor serï¿½ elevado, efetuarï¿½ o cï¿½lculo de potenciaï¿½ï¿½o e mostrarï¿½ o resultado na tela.
+// Autor(a): Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 25/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    numero, exponenciacao: Inteiro
    resultado: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   EscrevaL("EXPONENCIAÇÃO")
-   Escreva("Digite um número inteiro: ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+   EscrevaL("EXPONENCIAï¿½ï¿½O")
+   Escreva("Digite um nï¿½mero inteiro: ")
    Leia(numero)
    Escreva("Elevado a: ")
    Leia(exponenciacao)
    resultado <- numero ^ exponenciacao
-   Escreva("Resultado:", numero, " elevado a", exponenciacao, " é igual a:", resultado)
+   Escreva("Resultado:", numero, " elevado a", exponenciacao, " ï¿½ igual a:", resultado)
 Fimalgoritmo

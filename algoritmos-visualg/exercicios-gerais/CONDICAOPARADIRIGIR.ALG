@@ -1,31 +1,31 @@
-Algoritmo "CondiçãoParaDirigir"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "condicaoParaDirigir"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição: Algoritmo irá ler o valor da idade e se o usuário possui habilitação e carro, e então, exibirá o resultado de sua condição para dirigir.
-// Autor(a): Mateus Alves Conceição
+// Descriï¿½ï¿½o: Algoritmo irï¿½ ler o valor da idade e se o usuï¿½rio possui habilitaï¿½ï¿½o e carro, e entï¿½o, exibirï¿½ o resultado de sua condiï¿½ï¿½o para dirigir.
+// Autor(a): Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 25/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    idade: Inteiro
    habilitacao, carro: Caractere
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Verifique sua condição para dirigir")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Verifique sua condiï¿½ï¿½o para dirigir")
    Escreva("Digite sua idade: ")
    Leia(idade)
-   Escreva("Você possui habilitação? [S/N] ")
+   Escreva("Vocï¿½ possui habilitaï¿½ï¿½o? [S/N] ")
    Leia(habilitacao)
-   Escreva("Você possui um carro: [S/N] ")
+   Escreva("Vocï¿½ possui um carro: [S/N] ")
    Leia(carro)
    LimpaTela
    EscrevaL("---------------STATUS---------------")
    Se (idade>=18) e (habilitacao = "S") e (carro="S") entao
-      Escreva("Você está apto para dirigir")
+      Escreva("Vocï¿½ estï¿½ apto para dirigir")
    senao
         Se (idade>=18) e (habilitacao = "S") e (carro="N") entao
-           Escreva("Você está apto para dirigir, mas ainda não possui um carro.")
+           Escreva("Vocï¿½ estï¿½ apto para dirigir, mas ainda nï¿½o possui um carro.")
         senao
-           Escreva("Você não está apto para dirigir, mesmo que já possua um carro.")
+           Escreva("Vocï¿½ nï¿½o estï¿½ apto para dirigir, mesmo que jï¿½ possua um carro.")
         FimSe
    FimSe
 Fimalgoritmo

@@ -1,20 +1,20 @@
-Algoritmo "Soma"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "soma"
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor   : Obama
-// Descrição   : Solicitar dois valores, efetuar a SOMA e exibir o resultado.
-// Autor(a)    : Mateus Alves Conceição
+// Descriï¿½ï¿½o   : Solicitar dois valores, efetuar a SOMA e exibir o resultado.
+// Autor(a)    : Mateus Alves Conceiï¿½ï¿½o
 // Data atual  : 16/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    gaveta1: Inteiro
    gaveta2: Inteiro
    soma: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Somador de dois números")
-   Escreva("Digite um número: ")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   Escreval("Somador de dois nï¿½meros")
+   Escreva("Digite um nï¿½mero: ")
    Leia(gaveta1)
-   Escreva("Digite outro número: ")
+   Escreva("Digite outro nï¿½mero: ")
    Leia(gaveta2)
    soma <- gaveta1 + gaveta2
    Escreva("A soma entre", gaveta1, " e", gaveta2, " corresponde a:", soma)
