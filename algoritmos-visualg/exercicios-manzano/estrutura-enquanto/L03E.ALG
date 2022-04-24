@@ -1,16 +1,16 @@
-Algoritmo "Potênciasde3"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "potenciasde3"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar os resultados das potï¿½ncias de 3, variando do expoente 0 atï¿½ o expoente 15.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 31/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    valor, contador: Inteiro
    potencia: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Potências de 3 entre 0 e 15")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Potï¿½ncias de 3 entre 0 e 15")
    valor <- 3
    contador <- 0
    potencia <- 0

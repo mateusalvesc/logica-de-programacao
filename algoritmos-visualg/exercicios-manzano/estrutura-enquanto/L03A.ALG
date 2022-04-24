@@ -1,13 +1,20 @@
-Algoritmo "Enquanto01"
-// Disciplina: [LÛgica de ProgramaÁ„o e JavaScript]
+Algoritmo "enquanto01"
+// Disciplina: [L√≥gica de Programa√ß√£o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// DescriÁ„o:
-// Autor(a):   Mateus Alves ConceiÁ„o
+// Descri√ß√£o:  Apresentar os resultados de uma tabuada de multiplicar (de 1 at√© 10) de um n√∫mero qualquer.
+// Autor(a):   Mateus Alves Concei√ß√£o
 // Data atual: 31/03/2022
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
-
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
+   valor, contador: Inteiro
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   EscrevaL("Tabuada")
+   Escreva("Digite um valor: ")
+   Leia(valor)
+   LimpaTela
+   Enquanto contador <= 10 faca
+      EscrevaL(valor, " x", contador, " =", valor * contador)
+      contador <- contador + 1
+   FimEnquanto
 Fimalgoritmo

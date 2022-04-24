@@ -1,15 +1,15 @@
-Algoritmo "SomaDosCem"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "somaDosCem"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor: Jailson Costa dos Santos
-// Descrição: Algoritmo irá apresentar a soma obtida dos cem primeiros números inteiros.
-// Autor(a):  Mateus Alves Conceição
+// Descriï¿½ï¿½o: Algoritmo irï¿½ apresentar a soma obtida dos cem primeiros nï¿½meros inteiros.
+// Autor(a):  Mateus Alves Conceiï¿½ï¿½o
 // Data atual:31/03/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    acumulador, contador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Soma dos cem primeiros números inteiros: ")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Soma dos cem primeiros nï¿½meros inteiros: ")
    EscrevaL("")
    contador <- 1
    Enquanto contador < 101 faca
@@ -18,5 +18,5 @@ Inicio
       contador <- contador + 1
    FimEnquanto
    EscrevaL("")
-   EscrevaL("A soma dos cem primeiros números inteiros é igual a:", acumulador)
+   EscrevaL("A soma dos cem primeiros nï¿½meros inteiros ï¿½ igual a:", acumulador)
 Fimalgoritmo

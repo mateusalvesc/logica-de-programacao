@@ -1,15 +1,15 @@
-Algoritmo "NúmerosÍmpares"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "numerosImpares"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Exibir na tela os números ímpares entre o intervalo de 0 a 20.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Exibir na tela os nï¿½meros ï¿½mpares entre o intervalo de 0 a 20.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 31/03/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    contador: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   EscrevaL("Números ímpares entre 0 e 20:")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+   EscrevaL("Nï¿½meros ï¿½mpares entre 0 e 20:")
    contador <- 0
    Enquanto contador <= 20 faca
       Se contador % 2 = 1 entao

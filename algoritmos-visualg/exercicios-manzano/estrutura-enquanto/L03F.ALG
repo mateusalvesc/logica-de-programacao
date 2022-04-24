@@ -1,15 +1,15 @@
-Algoritmo "Potência"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "potencia"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo que apresente como resultado o valor de uma potência de uma base qualquer elevada a um expoente qualquer.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Algoritmo que apresente como resultado o valor de uma potï¿½ncia de uma base qualquer elevada a um expoente qualquer.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 31/03/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador, potencia, base, expoente: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Potência")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Potï¿½ncia")
    contador <- 1
    potencia <- 1
    Escreva("Digite o valor da base: ")
