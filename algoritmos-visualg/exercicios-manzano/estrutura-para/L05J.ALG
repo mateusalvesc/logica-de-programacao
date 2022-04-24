@@ -1,4 +1,4 @@
-Algoritmo "conversorTemperatura"
+Algoritmo "conversorDeTemperatura"
 // Disciplina: [L�gica de Programa��o com JavaScript]
 // Professor:  Jailson Costa dos Santos 
 // Descri��o:  Programa que apresente os valores de convers�o de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius.

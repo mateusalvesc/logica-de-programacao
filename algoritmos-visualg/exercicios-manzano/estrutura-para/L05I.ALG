@@ -1,22 +1,22 @@
-Algoritmo "fibonacci"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "serieFibonacci"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição:  Programa que apresente a série de Fibonacci até o décimo quinto termo.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Programa que apresente a sï¿½rie de Fibonacci atï¿½ o dï¿½cimo quinto termo.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
     anterior, atual, proximo, contador: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    anterior <- 1
    atual <- 1
-   EscrevaL("Série de Fibonacci até o 15º termo:")
-   EscrevaL(" 1º :", anterior)
-   EscrevaL(" 2º :", atual)
+   EscrevaL("Sï¿½rie de Fibonacci atï¿½ o 15ï¿½ termo:")
+   EscrevaL(" 1ï¿½ :", anterior)
+   EscrevaL(" 2ï¿½ :", atual)
    Para contador de 3 ate 15 passo 1 faca
         proximo <- anterior + atual
-        EscrevaL(contador, "º :", anterior, " +", atual, " =", proximo)
+        EscrevaL(contador, "ï¿½ :", anterior, " +", atual, " =", proximo)
         anterior <- atual
         atual <- proximo
    FimPara
