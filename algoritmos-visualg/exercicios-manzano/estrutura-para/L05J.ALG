@@ -1,18 +1,18 @@
-Algoritmo "comversorTemperatura"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "conversorTemperatura"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição:  Programa que apresente os valores de conversão de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Programa que apresente os valores de conversï¿½o de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    contador: Inteiro
    fahrenheit: Real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Conversão de graus Celsius para Fahrenheit de 10 em 10 graus:")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Conversï¿½o de graus Celsius para Fahrenheit de 10 em 10 graus:")
    Para contador de 10 ate 100 passo 10 faca
         fahrenheit <- (9 * contador + 160) / 5
-        EscrevaL(contador, "ºC = ", fahrenheit, "ºF")
+        EscrevaL(contador, "ï¿½C = ", fahrenheit, "ï¿½F")
    FimPara
 Fimalgoritmo

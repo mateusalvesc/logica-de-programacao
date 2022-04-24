@@ -1,15 +1,15 @@
-Algoritmo "QuadradoDosNúmeros"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "quadradoDosNumeros"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos 
-// Descrição:  Apresentar os quadrados dos números inteiros de 15 a 200.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar os quadrados dos nï¿½meros inteiros de 15 a 200.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
    contador: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
    Para contador de 15 ate 200 passo 1 faca
-        EscrevaL(contador, " ao quadrado é igual a:", contador * contador)
+        EscrevaL(contador, " ao quadrado ï¿½ igual a:", contador * contador)
    FimPara
 Fimalgoritmo

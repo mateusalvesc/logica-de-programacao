@@ -1,16 +1,16 @@
-Algoritmo "Tabuada"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "tabuada"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Apresentar os resultados de uma tabuada de multiplicar (de 1 até 10) de um número qualquer.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar os resultados de uma tabuada de multiplicar (de 1 atï¿½ 10) de um nï¿½mero qualquer.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    valor, contador: Inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    EscrevaL("Tabuada")
-   Escreva("Digite um número: ")
+   Escreva("Digite um nï¿½mero: ")
    Leia(valor)
    Para contador de 1 ate 10 passo 1 faca
         EscrevaL(valor, " x", contador, " =", valor * contador)

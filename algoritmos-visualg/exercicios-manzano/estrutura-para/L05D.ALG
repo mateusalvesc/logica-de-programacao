@@ -1,18 +1,18 @@
-Algoritmo "SomatórioDosPares"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "somatorioDosPares"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Elaborar um programa que apresente no final o somatï¿½rio dos valores pares existentes na faixa de 1 atï¿½ 500.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador, somador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    Para contador de 1 ate 500 passo 1 faca
       Se contador % 2 = 0 entao
          somador <- somador + contador
       FimSe
    FimPara
-   Escreva("O somatório dos valores pares entre 1 e 500 é igual a:", somador)
+   Escreva("O somatï¿½rio dos valores pares entre 1 e 500 ï¿½ igual a:", somador)
 Fimalgoritmo

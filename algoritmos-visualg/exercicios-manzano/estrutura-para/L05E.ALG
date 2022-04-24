@@ -1,15 +1,15 @@
-Algoritmo "ValoresÍmpares"
-// Disciplina: [Lógica de Programação com JavaScript]
+Algoritmo "valoresImpares"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o com JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Apresentar todos os valores numéricos inteiros ímpares situados na faixa de 0 a 20.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar todos os valores numï¿½ricos inteiros ï¿½mpares situados na faixa de 0 a 20.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Números ímpares entre 0 e 20:")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Nï¿½meros ï¿½mpares entre 0 e 20:")
    Para contador de 0 ate 20 passo 1 faca
       Se contador % 2 = 1 entao
          EscrevaL(contador)
