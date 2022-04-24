@@ -1,18 +1,18 @@
-Algoritmo "Repita01"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "repita01"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Apresentar os quadrados dos números inteiros de 15 a 200.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar os quadrados dos nï¿½meros inteiros de 15 a 200.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Quadrado dos números inteiros de 15 a 200")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Quadrado dos nï¿½meros inteiros de 15 a 200")
    contador <- 15
    Repita
-      EscrevaL(contador, " ao quadrado é igual a: ", contador^2)
+      EscrevaL(contador, " ao quadrado ï¿½ igual a: ", contador^2)
       contador <- contador + 1
    Ate contador > 200
 Fimalgoritmo

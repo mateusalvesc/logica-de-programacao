@@ -1,15 +1,15 @@
-Algoritmo "Repita03"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "repita03"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Apresentar todos os números divisíveis por 4 que sejam menores que 200. Para verificar se o número é divisível por 4, efetuar dentro da malha a verificação lógica desta condição com a instrução se, perguntando se o número é divisível; sendo, mostre-o; não sendo, passe para o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Apresentar todos os nï¿½meros divisï¿½veis por 4 que sejam menores que 200. Para verificar se o nï¿½mero ï¿½ divisï¿½vel por 4, efetuar dentro da malha a verificaï¿½ï¿½o lï¿½gica desta condiï¿½ï¿½o com a instruï¿½ï¿½o se, perguntando se o nï¿½mero ï¿½ divisï¿½vel; sendo, mostre-o; nï¿½o sendo, passe para o prï¿½ximo passo. A variï¿½vel que controlarï¿½ o contador deve ser iniciada com o valor 1.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   EscrevaL("Números divisíveis por 4 menores que 200: ")
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   EscrevaL("Nï¿½meros divisï¿½veis por 4 menores que 200: ")
    contador <- 1
    Repita
       Se (contador % 4 = 0) entao

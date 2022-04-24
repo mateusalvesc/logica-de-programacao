@@ -1,14 +1,14 @@
-Algoritmo "Repita02"
-// Disciplina: [Lógica de Programação e JavaScript]
+Algoritmo "repita02"
+// Disciplina: [Lï¿½gica de Programaï¿½ï¿½o e JavaScript]
 // Professor:  Jailson Costa dos Santos
-// Descrição:  Algoritmo que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.
-// Autor(a):   Mateus Alves Conceição
+// Descriï¿½ï¿½o:  Algoritmo que apresente no final o somatï¿½rio dos valores pares existentes na faixa de 1 atï¿½ 500.
+// Autor(a):   Mateus Alves Conceiï¿½ï¿½o
 // Data atual: 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    contador, somaPares: Inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    contador <- 1
    Repita
       Se (contador mod 2) = 0 entao
@@ -17,5 +17,5 @@ Inicio
       FimSe
       contador <- contador + 1
    Ate contador > 500
-   Escreva("A soma dos valores pares entre 1 e 500 é igual a:", somaPares)
+   Escreva("A soma dos valores pares entre 1 e 500 ï¿½ igual a:", somaPares)
 Fimalgoritmo
